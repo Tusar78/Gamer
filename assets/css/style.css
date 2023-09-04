@@ -149,3 +149,10 @@ img {
   width: 33px;
   height: 24px;
 }
+
+.nav__link,
+.flow__text {
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: var(--font-medium);
+}
