@@ -1,17 +1,16 @@
 /* =-= Using "Work Sans" fonts from fonts.google.com =-= */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
 
 /* =-= CSS variables =-= */
 :root {
-
   /* --- Colors --- */
-  --title-black: #0B0223;
-  --default-black: #534C64;
-  --picton-blue: #4EC5F7;
+  --title-black: #0b0223;
+  --default-black: #534c64;
+  --picton-blue: #4ec5f7;
   --white-color: #fff;
 
   /* --- Font and typography --- */
-  --body-font: 'Work Sans', sans-serif;
+  --body-font: "Work Sans", sans-serif;
   --normal-size: 1rem;
 
   /* --- Font-weight --- */
@@ -67,7 +66,86 @@ img {
 
 /* =-= Layout =-= */
 .container {
+  width: 100%;
   max-width: 1440px;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
+}
+
+.text--gradient {
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title--gradient {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* =-= Navigation Section Start =-= */
+.navigation {
+  width: 100%;
+  background-color: var(--white-color);
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.navigation__content {
+  padding: 37px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__brand {
+  display: flex;
+  align-items: center;
+}
+
+.nav__brand > img {
+  display: block;
+  width: 86px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.brand__text {
+  font-size: 45px;
+  font-weight: var(--font-bold);
+  color: var(--title-black);
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item {
+  margin-left: 32px;
+}
+
+.nav__flow {
+  padding: 16px 24px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.flow__youtube {
+  padding: 0 16px 0 24px;
+}
+
+.nav__flow img {
+  vertical-align: middle;
+}
+
+.flow__youtube > img {
+  width: 33px;
+  height: 24px;
 }
