@@ -287,3 +287,45 @@ img {
   font-weight: 700;
   line-height: 45px;
 }
+
+/* =-= Start Online Section =-= */
+.online {
+  padding: 120px 0;
+}
+
+.online__head {
+  max-width: 655px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.online__title {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: var(--font-bold);
+}
+
+.online__subtitle {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: var(--font-regular);
+  line-height: 30px;
+  margin-top: 16px;
+}
+
+.online__cards {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px; 
+}
+
+.online__card-text {
+  display: block;
+  color: #534C64;
+font-size: 20px;
+font-weight: var(--font-medium);
+line-height: 30px; 
+margin-top: 24px;
+}
