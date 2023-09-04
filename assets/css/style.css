@@ -1,0 +1,73 @@
+/* =-= Using "Work Sans" fonts from fonts.google.com =-= */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* =-= CSS variables =-= */
+:root {
+
+  /* --- Colors --- */
+  --title-black: #0B0223;
+  --default-black: #534C64;
+  --picton-blue: #4EC5F7;
+  --white-color: #fff;
+
+  /* --- Font and typography --- */
+  --body-font: 'Work Sans', sans-serif;
+  --normal-size: 1rem;
+
+  /* --- Font-weight --- */
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+  --font-bolder: 800;
+}
+
+/* =-= Base =-= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-black);
+  font-weight: var(--font-bold);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* =-= Reuseable CSS classes =-= */
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+/* =-= Layout =-= */
+.container {
+  max-width: 1440px;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
