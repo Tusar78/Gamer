@@ -60,6 +60,7 @@ img {
 
 /* =-= Reuseable CSS classes =-= */
 .section {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -155,4 +156,71 @@ img {
   color: #3c354f;
   font-size: 18px;
   font-weight: var(--font-medium);
+}
+
+/* =-= Start Hero Section =-= */
+.hero {
+  padding-top: 19px;
+}
+
+.hero__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__body-wrap,
+.hero__thumbs {
+  flex: 1;
+}
+
+.hero__subtitle {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: var(--font-semi-bold);
+  text-transform: uppercase;
+}
+
+.hero__title {
+  font-size: 95px;
+  font-weight: var(--font-bolder);
+  text-transform: uppercase;
+  margin-bottom: calc(24px - 17px);
+}
+
+.hero__text-wrap {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+
+.hero__text-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+
+.hero__btns {
+  margin-top: 40px;
+}
+
+.hero__btn {
+  padding: 21px 40px;
+  border-radius: 48px;
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+  border: none;
+  outline: none;
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: var(--font-semi-bold);
+  text-transform: uppercase;
+}
+
+.btn-picton {
+  margin-left: 24px;
+  border-radius: 48px;
+  background: var(--picton-blue);
 }
