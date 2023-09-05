@@ -498,3 +498,28 @@ img {
 .career__thumbs {
   display: none;
 }
+
+.card {
+  padding: 120px 0;
+  background: var(--white-color);
+}
+
+.card__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(243px, 1fr));
+  gap: 27px;
+  justify-content: center;
+}
+
+.card__item {
+  border: 1px solid red;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px 10px 10px;
+}
+
+.card__text {
+  display: block;
+  margin-left: 16px;
+}
