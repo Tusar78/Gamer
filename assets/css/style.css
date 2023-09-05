@@ -436,3 +436,65 @@ img {
   right: 0;
   bottom: -119px;
 }
+
+/* =-= Start Career Section =-= */
+.career {
+  padding: 120px 0;
+  background: url("../images/Group65.png"), linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.career__content {
+  display: flex;
+}
+
+.career__text-wrap {
+  max-width: 680px;
+  width: 100%;
+}
+
+.career__title {
+  color: var(--white-color);
+  font-size: 48px;
+  font-weight: var(--font-bold);
+  line-height: 60px;
+}
+
+.career__text {
+  color: var(--white-color);
+  font-size: 18px;
+  font-weight: var(--font-regular);
+  line-height: 30px;
+  padding: 24px 0 32px;
+}
+
+.career__texts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.career__txt {
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: var(--font-semi-bold);
+  line-height: 40px;
+}
+
+.career__btn {
+  font-size: 20px;
+  font-weight: var(--font-semi-bold);
+  text-transform: uppercase;
+  padding: 21px 40px;
+  background: var(--white-color);
+  border: none;
+  outline: none;
+  border-radius: 48px;
+  color: #f948b2;
+  margin-top: 40px;
+}
+
+.career__thumbs {
+  display: none;
+}
