@@ -440,7 +440,8 @@ img {
 /* =-= Start Career Section =-= */
 .career {
   padding: 120px 0;
-  background: url("../images/Group65.png"), linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+  background: url("../images/Group65.png"),
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -505,21 +506,36 @@ img {
 }
 
 .card__content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(243px, 1fr));
-  gap: 27px;
+  display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 27px;
 }
 
 .card__item {
-  border: 1px solid red;
+  border: 1px solid var(--white-color);
   border-radius: 50px;
   display: flex;
   align-items: center;
   padding: 10px 20px 10px 10px;
+  width: fit-content;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card__item:hover {
+  border: 1px solid #f948b2;
 }
 
 .card__text {
   display: block;
   margin-left: 16px;
+  color: #0b0223;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.card__item:hover .card__text {
+  color:#f948b2;
 }
