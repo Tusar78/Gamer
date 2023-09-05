@@ -663,4 +663,13 @@ img {
   .play {
     padding-bottom: 120px;
   }
+
+  .career {
+    background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+  }
+
+  .footer__items, .footer__policy {
+    flex-wrap: wrap;
+    justify-content: center;
+}
 }
