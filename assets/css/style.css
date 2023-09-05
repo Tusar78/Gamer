@@ -256,12 +256,9 @@ img {
 }
 
 .gamer__title {
-  text-align: right;
-  font-family: Work Sans;
   font-size: 48px;
   font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-weight: var(--font-bold);
 }
 
 .gamer__text {
@@ -668,8 +665,118 @@ img {
     background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
   }
 
-  .footer__items, .footer__policy {
+  .footer__items,
+  .footer__policy {
     flex-wrap: wrap;
     justify-content: center;
+  }
 }
+
+@media screen and (max-width: 424.99px) {
+  .container {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
+  .nav__list {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .nav__item {
+    margin-left: 0;
+  }
+
+  .btn-picton {
+    margin-left: 0;
+  }
+
+  .gamer__texts {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .gamer__title {
+    font-size: 36px;
+  }
+
+  .gamer__bottom-text {
+    font-size: 26px;
+  }
+
+  .online {
+    padding: 80px 0;
+  }
+
+  .online__title {
+    font-size: 36px;
+  }
+
+  .play__thumb-small {
+    width: 40%;
+  }
+
+  .play__thumb-small {
+    bottom: -70px;
+  }
+
+  .play__text-wrap {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .play__title {
+    font-size: 36px;
+    line-height: 46px;
+    max-width: 100%;
+  }
+
+  .play {
+    padding-bottom: 160px;
+  }
+
+  .career {
+    padding: 80px 0;
+  }
+
+  .career__texts {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 1.25rem;
+  }
+
+  .career__btn {
+    font-size: 1rem;
+    padding: 16px 26px;
+    margin-top: 1.5rem;
+  }
+
+  .card {
+    padding: 80px 0;
+  }
+
+  .play__content {
+    justify-content: left;
+    flex-direction: column-reverse;
+  }
+
+  .copyright__text {
+    text-align: center;
+  }
+
+  .gamer {
+    padding: 80px 0;
+  }
+
+  .gamer {
+    padding-bottom: 0;
+  }
+
+  .card__content {
+    justify-content: flex-start;
+  }
+
+  .footer {
+    padding: 80px 0;
+  }
 }
