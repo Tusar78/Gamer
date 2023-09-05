@@ -700,6 +700,13 @@ img {
     font-size: 36px;
   }
 
+  .hero__btns {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
   .gamer__bottom-text {
     font-size: 26px;
   }
@@ -733,6 +740,15 @@ img {
 
   .play {
     padding-bottom: 160px;
+  }
+
+  .career__thumbs {
+    display: block;
+  }
+
+  .career__content {
+    flex-direction: column;
+    gap: 60px;
   }
 
   .career {
