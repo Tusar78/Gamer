@@ -175,7 +175,7 @@ img {
 }
 
 .hero__subtitle {
-  color: #0b0223;
+  color: var(--title-black);
   font-size: 48px;
   font-weight: var(--font-semi-bold);
   text-transform: uppercase;
@@ -265,7 +265,7 @@ img {
 }
 
 .gamer__text {
-  color: #534c64;
+  color: var(--default-black);
   font-size: 18px;
   font-weight: var(--font-regular);
   line-height: 30px;
@@ -274,7 +274,7 @@ img {
 
 .gamer__person {
   display: block;
-  color: #534c64;
+  color: var(--default-black);
   font-size: 24px;
   font-weight: var(--font-medium);
   line-height: 45px;
@@ -282,7 +282,7 @@ img {
 }
 
 .gamer__bottom-text {
-  color: #534c64;
+  color: var(--default-black);
   font-size: 32px;
   font-weight: 700;
   line-height: 45px;
@@ -301,13 +301,13 @@ img {
 }
 
 .online__title {
-  color: #0b0223;
+  color: var(--title-black);
   font-size: 48px;
   font-weight: var(--font-bold);
 }
 
 .online__subtitle {
-  color: #534c64;
+  color: var(--default-black);
   font-size: 18px;
   font-weight: var(--font-regular);
   line-height: 30px;
@@ -342,7 +342,7 @@ img {
 
 .online__card-text {
   display: block;
-  color: #534c64;
+  color: var(--default-black);
   font-size: 20px;
   font-weight: var(--font-medium);
   line-height: 30px;
@@ -384,6 +384,55 @@ img {
   cursor: pointer;
 }
 
-.card__image-wrap:hover  .card__hover{
+.card__image-wrap:hover .card__hover {
   opacity: 100%;
+}
+
+/* =-= Start Play Section =-= */
+.play {
+  padding-bottom: 120px;
+}
+
+.play__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play__thumbs {
+  width: 100%;
+  max-width: 846px;
+  position: relative;
+}
+
+.play__text-wrap {
+  width: 100%;
+  max-width: 483px;
+  margin-left: 40px;
+}
+
+.play__title {
+  font-size: 48px;
+  font-weight: var(--font-bold);
+  line-height: 60px;
+  max-width: 426px;
+}
+
+.play__text {
+  color: var(--default-black);
+  font-size: 18px;
+  font-weight: var(--font-regular);
+  line-height: 30px;
+  margin-top: 24px;
+}
+
+.play__thumb {
+  width: 710px;
+  border-radius: 8px;
+}
+
+.play__thumb-small {
+  position: absolute;
+  right: 0;
+  bottom: -119px;
 }
